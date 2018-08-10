@@ -1,5 +1,5 @@
 <template>
-<div id="components-demo">
+<div>
  <div id="myDiagramDiv" style="border: solid 1px blue; width:100%; height:800px"></div>
 </div>
 </template>

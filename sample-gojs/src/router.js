@@ -5,6 +5,7 @@ import SimpleGraph from '@/views/SimpleGraph.vue'
 import SimpleBlock from '@/views/SimpleBlock.vue'
 import DynamicPorts from './views/SampleDynamicPorts.vue'
 import DataFlow from './views/SampleDataFlow.vue'
+import Test from './views/TestForBlock.vue'
 
 
 Vue.use(Router)
@@ -35,6 +36,11 @@ export default new Router({
       path: '/DataFlow',
       name: 'DataFlow',
       component: DataFlow
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: Test
     },
     {
       path: '/about',
